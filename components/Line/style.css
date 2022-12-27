@@ -1,0 +1,42 @@
+.Line {
+  line-height: 0px;
+}
+
+.Line textarea {
+  overflow: hidden;
+  color: #444;
+}
+
+.darkmode .Line textarea {
+  overflow: hidden;
+  color: #ddd;
+  background: #252525;
+}
+
+.Line textarea.white {
+  background: #fafafa;
+}
+
+.Line textarea.yellow {
+  background: #f5f4be;
+}
+
+.Line textarea.purple {
+  background: #efc8d9;
+}
+
+.Line textarea.green {
+  background: #d0ecc8;
+}
+
+.Line textarea.blue {
+  background: #d3eaf5;
+}
+
+.Line textarea:focus {
+  background: #fafafa;
+}
+
+.darkmode .Line textarea:focus {
+  background: #1e1e1e;
+}

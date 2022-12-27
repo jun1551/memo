@@ -1,0 +1,88 @@
+.AddonItem {
+  color: #555;
+  position: relative;
+}
+
+.AddonItem h5 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #444;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.AddonItem a {
+  font-size: 0.95em;
+  margin-top: 5px;
+}
+
+.AddonItem .AddonConfigure {
+  position: absolute;
+  right: 0px;
+  top: -3px;
+  cursor: pointer;
+  opacity: 0;
+  transform: rotate(0deg);
+  transition: 300ms all;
+  transition-delay: 200ms;
+}
+
+.AddonItem .AddonConfigure path {
+  fill: #222;
+}
+.darkmode .AddonItem .AddonConfigure path {
+  fill: #fff;
+}
+
+.AddonItem:hover .AddonConfigure {
+  opacity: 0.8;
+  transform: rotate(180deg);
+}
+
+.darkmode .AddonItem h5 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #aaa;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+
+.imageCarrier {
+  width: 194px;
+  max-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  transition: 200ms all;
+  line-height: 0px;
+}
+
+.imageCarrier:hover {
+  opacity: 1;
+}
+
+.linkCarrier {
+  padding: 5px 7px;
+  border-radius: 5px;
+  color: #40858c;
+  border: 1px solid #adcfe8;
+  display: block;
+  background: #cae3ef;
+  margin-bottom: 5px;
+}
+
+.linkCarrier b {
+  font-weight: 500;
+}
+
+.darkmode .linkCarrier {
+  color: #b1c5b2;
+  border: 1px solid #3b753d;
+  display: block;
+  background: #243e24;
+}
